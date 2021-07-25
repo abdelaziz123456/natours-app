@@ -14,13 +14,14 @@ $color-dark-grey:#333333;
     .links-list{
         display: flex;
         justify-content: center;
+        
         padding-bottom: 10rem;
         ul{
             list-style-type: none;
             li{
                 display:inline;
                 
-                padding:1.5rem;
+                padding:1rem;
                 font-size: medium;
                 text-transform: uppercase;
 
@@ -38,3 +39,5 @@ $color-dark-grey:#333333;
         }
     }
 }
+
+

@@ -18,7 +18,7 @@ function Stories(){
                     
                 <div className="text-div">
                 <h4>
-                    I HAD THE BEST WEEK EVER WITH MY FAMILY
+                    IT WAS THE  BEST TOUR I HABE EVER HAD
                     </h4>
                     <span>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur libero repellat quis consequatur ducimus . 

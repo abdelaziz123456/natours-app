@@ -1,0 +1,98 @@
+$color-primary:#55c57e;
+$color-primary-light:#7ed56f;
+$color-primary-dark:#28b485;
+$color-grey-dark:#777;
+$color-grey-light:#F7F7F7;
+$color-white:#fff;
+
+
+.booking{
+
+  padding: 10rem 2rem;
+  background-image: linear-gradient(to bottom left ,$color-primary-light,$color-primary-dark); 
+  display: flex;
+  justify-content: center;
+  
+  .book{
+      background-image:linear-gradient(to bottom right, rgba($color-white,.7), rgba($color-white,.9)  ),url('../../img/nat-10.jpg');
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      min-height: 40rem;
+      width:80%;
+      box-shadow:0 1.5rem 4rem rgba(black, .2);
+      display: flex;
+      justify-content:center;
+      
+
+      .book-form{
+          width: 100%;
+          padding: 2rem 2rem;
+
+          .form-group{
+              width:100%;
+              display: flex;
+              justify-content: center;
+            .form-input{
+                width:100%;
+                height:3rem;
+                margin:1.5rem;
+                padding: 1.5rem;
+                font-size: 1.6rem;
+                color: grey;
+                border:none;
+                &:focus{
+                    outline:none;
+                    border-bottom: 2px solid $color-primary-dark;
+                    box-shadow: 0 1rem 1rem rgba(black,.2);
+                    &:invalid{
+                        border-bottom: 2px solid red; 
+                    }
+                }
+
+            }
+
+          }
+          .radio-group{
+            .form-input{
+                height: 2rem;
+                width:2rem;
+                margin:1rem 2rem;
+                border:5px solid green;
+                display: inline-block;
+                border-radius: 50%;
+                cursor: pointer;
+            }
+            .form-label{
+                font-size: 1.5rem;
+                color: $color-grey-dark;
+            }
+
+          }
+
+
+          .btn-green{
+              margin:0;
+          }
+
+
+
+
+          
+          
+          
+      }
+
+
+  }
+}
+
+
+@media  (max-width:1100px) {
+    .booking{
+        
+        
+    }
+    .book-form{
+        padding: 0;
+    }
+}

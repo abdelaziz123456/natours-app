@@ -1,0 +1,40 @@
+$color-dark-grey:#333333;
+
+.footer-main{
+    background-color:$color-dark-grey ;
+    min-height: 10rem;
+    .logo-div{
+        padding: 10rem 0;
+        display: flex;
+        justify-content: center;
+       img{
+           width:10rem;
+       }
+    }
+    .links-list{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 10rem;
+        ul{
+            list-style-type: none;
+            li{
+                display:inline;
+                
+                padding:1.5rem;
+                font-size: medium;
+                text-transform: uppercase;
+
+                &:hover{
+                    box-shadow:1rem 1rem 1rem rgba(black,.2);
+                    box-shadow:-1rem -1rem 1rem rgba(black,.2);
+                }
+                a{
+                    color: white;
+                    text-decoration: none;
+
+                }
+            }
+            
+        }
+    }
+}

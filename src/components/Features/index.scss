@@ -1,0 +1,86 @@
+$color-primary:#55c57e;
+$color-primary-light:#7ed56f;
+$color-primary-dark:#28b485;
+$color-grey-dark:rgb(95, 93, 93);
+$color-white:#fff;
+$color-black:black;
+
+@keyframes feat-move{
+    0%{
+   
+   
+    }
+
+    100%{
+        
+        transform: translateY(-2rem);
+
+    }
+   
+}
+
+
+
+
+.features{
+    clip-path: polygon(0 15% , 100% 0,100% 85%,0 100%);
+    
+    background-image:linear-gradient(to right bottom,rgba($color-primary-light,.8),rgba($color-primary-dark,.8)),url('../../img/nat-4.jpg') ;
+    background-size:cover ;
+    background-position: top;
+    display: flex;
+    flex-flow: row no-wrap;
+    justify-content: center;
+
+    padding: 16rem 3rem;
+    margin: 5rem 0;
+    font-family: "Lato";
+
+    .sub-feature{
+        
+        background-color:rgba($color-white,.8) ;
+        margin: 2rem 1rem;
+        padding: 4rem 1rem;
+        text-align: center;
+        width:25%;
+        color:$color-grey-dark;
+        &:hover{
+            animation-name: feat-move;
+            animation-duration: .5s;
+            animation-fill-mode:forwards ;
+            animation-direction: alternate;
+           
+        }
+        
+        .fa{
+            color:$color-primary-dark
+
+        }
+        span{
+            font-size: small;
+            
+
+        }
+    }
+    h2{
+        margin: 3rem 0;
+        text-transform: uppercase;
+        color:$color-grey-dark
+    }
+}
+
+
+@media (max-width:980px){
+    .features{
+        flex-flow: row wrap;
+        
+
+        .sub-feature{
+            
+            width:50%;
+           
+       }
+
+    }
+ 
+}

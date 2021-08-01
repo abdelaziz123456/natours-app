@@ -19,6 +19,8 @@ function Stories(){
                 <div className="text-div">
                 <h4>
                     IT WAS THE  BEST TOUR I HABE EVER HAD
+
+
                     </h4>
                     <span>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur libero repellat quis consequatur ducimus . 
@@ -48,7 +50,7 @@ function Stories(){
                 </div>  
             </div>
             <div className='btn-container center-button'>
-                    <a className='btn-secondary' href="#">Read All Stories &rarr; </a>
+                    <a className='btn-secondary special-btn' href="#">Read All Stories &rarr; </a>
 
                     </div>
 
